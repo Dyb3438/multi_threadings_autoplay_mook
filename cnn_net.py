@@ -9,6 +9,7 @@ import matplotlib.pyplot as plt
 import random
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'  # 防止报出 TensorFlow 中的警告
+os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 
 charts = {'0': 0, '1': 1, '2': 2, '3': 3, '4': 4, '5': 5, '6': 6, '7': 7, '8': 8, '9': 9, 'a': 10, 'b': 11,
           'c': 12, 'd': 13, 'e': 14, 'f': 15, 'g': 16, 'h': 17, 'i': 18, 'j': 19, 'k': 20, 'l': 21, 'm': 22,

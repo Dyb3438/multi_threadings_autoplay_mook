@@ -423,6 +423,7 @@ def main():
     else:
         print('登陆成功!')
     cnn.session.close()
+    del(cnn)
     print('正在上课的课程列表:')
     courses = Test.GetCourseList()
     status = True
